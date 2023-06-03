@@ -30,7 +30,7 @@ function addEmp(req, res){
  function updateEmp(req, res){
     try{
      const {id, name, email, salary, role, colleague} = req.body;
- 
+        console.log(colleague, role, id, name)
      Employee.findByIdAndUpdate(id, {
         name:name,
         salary:salary,

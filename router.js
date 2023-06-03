@@ -9,8 +9,4 @@ router.post('/employee', addEmp )
       .get('/employee/:id', getEmpById)
       .delete('/employee/:id', deleteEmpById)
 
-
-
-
-
 module.exports = router;
